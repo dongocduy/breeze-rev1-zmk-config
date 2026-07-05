@@ -22,9 +22,9 @@
             //                                     |   NUMPAD   |     LALT    |    LCMD    |   SPACE    |  |   ENTER   |   FUNCTION  |  MACOS APP |  MACOS LANG |
 
             bindings = <
-&kp ESC    &kp N1  &kp N2        &kp N3    &kp N4     &kp N5    &kp N6  &kp N7   &kp N8     &kp N9   &kp N0    &kp MINUS   &kp EQUAL  &kp BACKSPACE  &trans
-&kp TAB    &kp Q   &kp W         &kp E     &kp R      &kp T     &kp Y   &kp U    &kp I      &kp O    &kp P     &kp LBKT    &kp RBKT   &kp ENTER      &trans
-&kp RCTRL  &kp A   &kp S         &lt 2 D   &lt 1 F    &kp G     &kp H   &lt 1 J  &kp K      &kp L    &kp SEMI  &kp APOS    &kp UP
+&kp ESC    &kp N1  &kp N2        &kp N3    &kp N4     &kp N5    &kp N6  &kp N7   &kp N8     &kp N9   &kp N0    &kp MINUS   &kp EQUAL  &kp BACKSPACE  
+&kp TAB    &kp Q   &kp W         &kp E     &kp R      &kp T     &kp Y   &kp U    &kp I      &kp O    &kp P     &kp LBKT    &kp RBKT   &kp ENTER    
+&kp RCTRL  &kp A   &kp S         &kp D     &kp F      &kp G     &kp H   &kp J    &kp K      &kp L    &kp SEMI  &kp APOS    &kp ENTER  &kp UP
 &kp LSHFT  &kp Z   &kp X         &kp C     &kp V      &kp B     &kp N   &kp M    &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT  &kp LEFT   &kp DOWN       &kp RIGHT
 &mo 2      &mo 1   &kp LEFT_ALT  &kp LGUI  &kp SPACE  &kp BSPC  &mo 1   &mo 2
             >;
@@ -41,9 +41,9 @@
             //                                     |            |             |            |            |  |           |             |            |             |
 
             bindings = <
-&kp GRAVE          &kp F1           &kp F2                &kp F3                    &kp F4                     &kp F5                 &kp F6                &kp F7                    &kp F8                     &kp F9                 &kp F10            &kp F11                   &kp F12                    &trans         &trans
-&kp LG(TILDE)      &kp EXCLAMATION  &kp LG(W)             &kp HASH                  &kp PIPE                   &kp BACKSLASH          &kp LG(LEFT_BRACKET)  &kp LS(LG(LEFT_BRACKET))  &kp LS(LG(RIGHT_BRACKET))  &kp LG(RIGHT_BRACKET)  &kp RIGHT_BRACKET  &kp LS(LG(LEFT_BRACKET))  &kp LS(LG(RIGHT_BRACKET))  &trans         &trans
-&kp C_VOLUME_UP    &kp LG(TAB)      &kp LG(LEFT_BRACKET)  &kp LG(LS(LEFT_BRACKET))  &kp LG(LS(RIGHT_BRACKET))  &kp LG(RIGHT_BRACKET)  &kp LEFT              &kp DOWN                  &kp UP                     &kp RIGHT              &kp RIGHT_BRACE    &kp PAGE_UP               &kp PAGE_UP
+&kp GRAVE          &kp F1           &kp F2                &kp F3                    &kp F4                     &kp F5                 &kp F6                &kp F7                    &kp F8                     &kp F9                 &kp F10            &kp F11                   &kp F12                    &trans         
+&kp LG(TILDE)      &kp EXCLAMATION  &kp LG(W)             &kp HASH                  &kp PIPE                   &kp BACKSLASH          &kp LG(LEFT_BRACKET)  &kp LS(LG(LEFT_BRACKET))  &kp LS(LG(RIGHT_BRACKET))  &kp LG(RIGHT_BRACKET)  &kp RIGHT_BRACKET  &kp LS(LG(LEFT_BRACKET))  &kp LS(LG(RIGHT_BRACKET))  &trans         
+&kp C_VOLUME_UP    &kp LG(TAB)      &kp LG(LEFT_BRACKET)  &kp LG(LS(LEFT_BRACKET))  &kp LG(LS(RIGHT_BRACKET))  &kp LG(RIGHT_BRACKET)  &kp LEFT              &kp DOWN                  &kp UP                     &kp RIGHT              &kp RIGHT_BRACE    &kp PAGE_UP               &trans  &kp PAGE_UP
 &kp C_VOLUME_DOWN  &kp K_MUTE       &trans                &kp HOME                  &kp END                    &kp C_VOLUME_UP        &kp DOLLAR            &kp PLUS                  &kp MINUS                  &kp DELETE             &kp END            &kp PAGE_DOWN             &kp HOME                   &kp PAGE_DOWN  &kp END
 &trans             &trans           &trans                &trans                    &kp ENTER                  &kp LA(BACKSPACE)      &trans                &trans
             >;
@@ -51,9 +51,9 @@
 
         numbers {
             bindings = <
-&bt BT_CLR         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4       &kp K_MUTE                &kp C_VOL_DN          &kp C_VOLUME_UP        &kp FSLH                   &kp ASTERISK   &kp MINUS  &trans       &bt BT_CLR     &trans
-&kp LG(TILDE)      &kp N6        &kp N7        &kp N8        &kp N9        &kp N0             &kp LG(LS(LEFT_BRACKET))  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LS(LG(RIGHT_BRACKET))  &kp PAGE_UP    &kp PLUS   &trans       &trans         &trans
-&kp C_VOLUME_UP    &kp N1        &kp N2        &kp N3        &kp N4        &kp N5             &kp LEFT                  &kp DOWN              &kp UP                 &kp RIGHT                  &kp PAGE_DOWN  &kp ENTER  &kp PAGE_UP
+&bt BT_CLR         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4       &kp K_MUTE                &kp C_VOL_DN          &kp C_VOLUME_UP        &kp FSLH                   &kp ASTERISK   &kp MINUS  &trans       &bt BT_CLR     
+&kp LG(TILDE)      &kp N6        &kp N7        &kp N8        &kp N9        &kp N0             &kp LG(LS(LEFT_BRACKET))  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LS(LG(RIGHT_BRACKET))  &kp PAGE_UP    &kp PLUS   &trans       &trans         
+&kp C_VOLUME_UP    &kp N1        &kp N2        &kp N3        &kp N4        &kp N5             &kp LEFT                  &kp DOWN              &kp UP                 &kp RIGHT                  &kp PAGE_DOWN  &kp ENTER   &trans &kp PAGE_UP
 &kp C_VOLUME_DOWN  &kp K_MUTE    &trans        &kp HOME      &kp END       &kp C_VOLUME_UP    &kp TILDE                 &kp HOME              &kp END                &kp N2                     &kp N3         &kp RIGHT  &kp HOME     &kp PAGE_DOWN  &kp END
 &trans             &trans        &trans        &trans        &kp ENTER     &kp LA(BACKSPACE)  &trans                    &trans
             >;
@@ -61,9 +61,9 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                &trans                    &trans                     &trans                 &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LG(LEFT_BRACKET)  &kp LG(LS(LEFT_BRACKET))  &kp LS(LG(RIGHT_BRACKET))  &kp LG(RIGHT_BRACKET)  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT              &kp DOWN                  &kp UP                     &kp RIGHT              &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                &trans                    &trans                     &trans                 &trans  &trans  &trans  &trans 
+&trans  &trans  &trans  &trans  &trans  &trans  &kp LG(LEFT_BRACKET)  &kp LG(LS(LEFT_BRACKET))  &kp LS(LG(RIGHT_BRACKET))  &kp LG(RIGHT_BRACKET)  &trans  &trans  &trans  &trans 
+&trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT              &kp DOWN                  &kp UP                     &kp RIGHT              &trans  &trans   &trans &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                &kp LC(LEFT_ARROW)        &kp LC(RIGHT)              &trans                 &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                &trans
             >;
@@ -71,9 +71,9 @@
 
         layer_4 {
             bindings = <
-&kp GRAVE          &kp F1           &kp F2                &kp F3                    &kp F4                     &kp F5                 &kp F6        &kp F7                &kp F8                 &kp F9            &kp F10            &kp F11                   &kp F12                    &trans         &trans
-&kp LG(TILDE)      &kp EXCLAMATION  &kp AT_SIGN           &kp HASH                  &kp PIPE                   &kp BACKSLASH          &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LS(LG(LEFT_BRACKET))  &kp LS(LG(RIGHT_BRACKET))  &trans         &trans
-&kp C_VOLUME_UP    &kp LG(TAB)      &kp LG(LEFT_BRACKET)  &kp LG(LS(LEFT_BRACKET))  &kp LG(LS(RIGHT_BRACKET))  &kp LG(RIGHT_BRACKET)  &kp CARET     &kp EQUAL             &kp UNDERSCORE         &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PAGE_UP               &kp PAGE_UP
+&kp GRAVE          &kp F1           &kp F2                &kp F3                    &kp F4                     &kp F5                 &kp F6        &kp F7                &kp F8                 &kp F9            &kp F10            &kp F11                   &kp F12                    &trans        
+&kp LG(TILDE)      &kp EXCLAMATION  &kp AT_SIGN           &kp HASH                  &kp PIPE                   &kp BACKSLASH          &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LS(LG(LEFT_BRACKET))  &kp LS(LG(RIGHT_BRACKET))  &trans         
+&kp C_VOLUME_UP    &kp LG(TAB)      &kp LG(LEFT_BRACKET)  &kp LG(LS(LEFT_BRACKET))  &kp LG(LS(RIGHT_BRACKET))  &kp LG(RIGHT_BRACKET)  &kp CARET     &kp EQUAL             &kp UNDERSCORE         &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PAGE_UP                &trans  &kp PAGE_UP
 &kp C_VOLUME_DOWN  &kp K_MUTE       &trans                &kp HOME                  &kp END                    &kp C_VOLUME_UP        &kp DOLLAR    &kp PLUS              &kp MINUS              &kp DELETE        &kp END            &kp PAGE_DOWN             &kp HOME                   &kp PAGE_DOWN  &kp END
 &trans             &trans           &trans                &trans                    &kp ENTER                  &kp LA(BACKSPACE)      &trans        &trans
             >;
